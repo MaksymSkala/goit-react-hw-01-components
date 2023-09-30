@@ -1,5 +1,5 @@
 import React from 'react';
-import user from '../user.json';
+import user from '../data_json/user.json';
 import './styles.css';
 
 const Profile = () => {

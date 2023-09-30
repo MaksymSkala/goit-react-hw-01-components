@@ -1,11 +1,11 @@
 import React from 'react';
-import Profile from '../components/Profile';
-import Statistics from '../components/Statistics';
-import data from '../data.json';
-import FriendList from './FriendList';
-import friendsData from '../friends.json';
-import TransactionHistory from './TransactionHistory';
-import transactions from '../transactions.json';
+import Profile from './Profile';
+import Statistics from './statistics/Statistics';
+import data from '../data_json/data.json';
+import FriendList from './friends/FriendList';
+import friendsData from '../data_json/friends.json';
+import TransactionHistory from './transaction/TransactionHistory';
+import transactions from '../data_json/transactions.json';
 import './styles.css';
 
 const App = () => {
